@@ -47,14 +47,10 @@ TG-Mamba/
 
 ### Phase 1 (train1.py)
 - Initial training of TG-Mamba model
-- Higher learning rate (5e-4) and batch size (64)
-- Extended training epochs (100) for thorough model optimization
+
 
 ### Phase 2 (train2.py)
 - Comparative experiments with baseline models
-- Lower learning rate (5e-5) and batch size (32)
-- Early stopping mechanism (patience=10)
-- Comprehensive evaluation metrics
 - Support for multiple baseline models including:
   - Traditional CNNs (VGG19, ResNet, DenseNet)
   - Vision Transformers (Swin)
